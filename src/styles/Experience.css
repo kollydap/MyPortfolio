@@ -1,0 +1,17 @@
+.experience {
+  text-align: center;
+}
+.experience > div {
+  box-shadow: 0px 0px 1.8rem 0px rgb(10% 10% 10% / 10%);
+  margin: 10px 70px;
+  padding: 30px;
+}
+@media (max-width: 400px) {
+  .experience > div {
+    margin: 15px;
+  }
+  .experience > strong{
+    font-size: 24px;
+  }
+}
+

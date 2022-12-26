@@ -1,0 +1,23 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+
+
+html{
+font-size: 10px;
+font-family:'Montserrat' ;
+color: #17252a;
+
+}
+/* unvisited link */
+a:link {
+  color: #777777;
+}
+
+/* visited link */
+a:visited {
+  color: #777777;
+}

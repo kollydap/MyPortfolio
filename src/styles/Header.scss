@@ -1,0 +1,94 @@
+.header{
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 50px;
+
+    @media (max-width:600px) {
+        padding: 75px 20px;
+    }
+
+
+
+    .header__text-box{
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        flex-direction: column;
+
+        .social-img{
+
+            display: flex;
+            justify-content:center ;
+            margin-left: -30px;
+
+            .socials{
+                display: flex;
+                flex-direction: column;
+                padding-right: 15px;
+                justify-content: space-between;
+
+                .MuiSvgIcon-root{
+                    font-size: 30px;
+                }
+            }
+
+            img{
+                height: 200px;
+                width: 200px;
+                object-fit: cover;
+                border-radius: 50%;
+              
+              }
+        }
+
+        
+
+        .heading-primary{
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            strong{
+                padding-top: 25px;
+                font-size: 60px;
+                font-weight: 300;
+
+                @media (max-width:600px) {
+                    font-size:40px;
+                }
+            }
+            h3{
+                padding-top: 25px;
+                font-weight: 300;
+                font-size: 30px;
+
+                @media (max-width:600px) {
+                    font-size:25px;
+                }
+            }
+            .aboutt{
+                padding-top: 25px;
+                width: 65%;
+                text-align: center;
+
+                @media (max-width:1000px) {
+                    width: 100%;
+                }
+
+                @media (max-width:600px) {
+                    width: 100%;
+                    text-align: left;
+                    word-wrap: break-word;
+                }
+            }
+
+        }
+      }
+
+      
+ }
+
+
