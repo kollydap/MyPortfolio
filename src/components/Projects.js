@@ -13,7 +13,7 @@ const Project = (props) => {
         {title}
       </strong>
       <img src={image} alt=" " />
-      <p style={{ letterSpacing: "0.5px" }} className="description">
+      <p style={{ letterSpacing: "0.2px" }} className="description">
         {description}
       </p>
       <br />

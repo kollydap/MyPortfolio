@@ -1,10 +1,15 @@
 import "../styles/Skill.css";
-
+import Aos from "aos"
+import "aos/dist/aos.css"
+import React,{useEffect} from "react";
 function Skills() {
+  useEffect(()=>{
+    Aos.init({duration:3000})
+},[])
   return (
     <div className="skill">
       <div>
-      <div className="skillCard">
+      <div className="skillCard" data-aos="fade-down" data-aos-duration="1500">
           <div className="skillCard-top">
            <h3> 01</h3>
            <h5> Web Developer</h5>
@@ -16,7 +21,7 @@ function Skills() {
           </p>
         </div>
 
-        <div className="skillCard">
+        <div className="skillCard" data-aos="fade-up" data-aos-duration="1500">
           <div className="skillCard-top">
            <h3> 02</h3>
            <h5> Database Administrator</h5>
@@ -30,7 +35,7 @@ function Skills() {
         </div>
       </div>
       <div>
-      <div className="skillCard">
+      <div className="skillCard" data-aos="fade-up">
           <div className="skillCard-top">
            <h3> 03</h3>
            <h5>Software Developer</h5>
@@ -42,7 +47,7 @@ function Skills() {
             firm's long time client.
           </p>
         </div>
-        <div className="skillCard">
+        <div className="skillCard" data-aos="fade-up" data-aos-duration="1000">
           <div className="skillCard-top">
            <h3> 04</h3>
            <h5> Backend Developer</h5>

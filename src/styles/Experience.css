@@ -1,6 +1,13 @@
 .experience {
   text-align: center;
 }
+.experience > strong{
+  font-size: 24px;
+}
+
+.ex-body{
+  font-size: 14px;
+}
 .experience > div {
 
   margin: 10px 70px;
@@ -8,14 +15,10 @@
 }
 @media (max-width: 400px) {
   .experience > div {
-    margin: 15px;
+    margin: 15px 15px;
   }
-  .experience > strong{
-    font-size: 24px;
-  }
-
   .ex-body{
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 

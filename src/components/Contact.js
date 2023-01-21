@@ -76,26 +76,26 @@ function Contact() {
         </strong>
 
         <div>
-          <LocationOnIcon />
-          <strong style={{ fontSize: "18px", display: "block" }}>
+          <LocationOnIcon  />
+          <strong style={{ fontSize: "14px", display: "block" }}>
             My Location
           </strong>
-          <p>FUTA || Ayobo Lagos</p>
+          <p className="contact-p">FUTA || Ayobo Lagos</p>
         </div>
         <div>
           <PhoneEnabledIcon />
-          <strong style={{ fontSize: "18px", display: "block" }}>
+          <strong style={{ fontSize: "14px", display: "block" }}>
             Phone Number
           </strong>
-          <p>+2347083842098</p>
-          <p>+2347063406436</p>
+          <p className="contact-p">+2347083842098</p>
+          <p className="contact-p">+2347063406436</p>
         </div>
         <div>
           <EmailIcon />
-          <strong style={{ fontSize: "18px", display: "block" }}>
+          <strong style={{ fontSize: "14px", display: "block" }}>
             Email Address
           </strong>
-          <p>
+          <p className="contact-p">
             <a href="http://dapkolly@gmail.com">dapkolly@gmail.com</a>
           </p>
         </div>

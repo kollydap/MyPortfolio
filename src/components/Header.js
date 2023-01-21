@@ -1,18 +1,24 @@
-import React from "react";
+import React,{useEffect} from "react";
 import "../styles/Header.css";
 import kola from "../assets/kola.jpeg";
+import Aos from "aos"
+import "aos/dist/aos.css"
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import GitHubIcon from "@material-ui/icons/GitHub";
 // import GitHubIcon from '@mui/icons-material/GitHub';
 function Header() {
+  useEffect(()=>{
+    Aos.init({duration:3000})
+},[])
   return (
     <div className="header">
       <div className="header__text-box">
         <div className="social-img">
           <div className="socials">
             <LinkedInIcon
+             
               onClick={(event) =>
                 (window.location.href =
                   "https://www.linkedin.com/in/oladapo-kolawole-osagie-864315185/")
@@ -26,7 +32,7 @@ function Header() {
             />
             <GitHubIcon 
               onClick={(event) =>
-                (window.location.href = "https://github.com/kollydap")
+                (window.location.href = "https://github.com/kolawoleOsagie")
               }
             />
             <TwitterIcon
@@ -39,11 +45,11 @@ function Header() {
         </div>
         <div className="heading-primary">
           <strong>Oladapo Kolawole Osagie</strong>
-          <h3 className="active">Software Developer</h3>
+          <h3 className="active" data-aos="fade-up">Software Developer</h3>
           <p className="aboutt">
             Hello! I am Osagie. A Software developer with experience in
             developing robust and result driven applications with expertise
-            in web development and design, destop applications. I develop applications using
+            in web development and design, destop development and mobile development. I develop applications using
             python Django, ReactJs, Csharp, WPF. I work comfortably with database and other web technologies. I basically
             choose the best tools for the project at hand. I can work with
             distributed team ,i work comfortably in an Agile-driven
