@@ -17,10 +17,10 @@ const Project = (props) => {
         {description}
       </p>
       <br />
-      <a style={{ wordWrap: "break-word" }} href={link}>
+      <a  style={{ wordWrap: "break-word", fontSize:"12.5px" }} href={link}>
         {link}
       </a>
-      <a style={{ wordWrap: "break-word" }} href={github}>
+      <a style={{ wordWrap: "break-word",fontSize:"12.5px"}} href={github}>
         {github}
       </a>
     </div>

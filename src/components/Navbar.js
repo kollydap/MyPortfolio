@@ -1,16 +1,17 @@
-import React, { useEffect } from "react";
+// import React, { useEffect } from "react";
 import "../styles/Navbar.css";
-import { Link } from "react-router-dom";
+import "../styles/Header.css";
+import {NavLink } from "react-router-dom";
 
 function MyNavbar() {
   return (
-    <div className="NavBar">
-      <Link to="/">
+    <div className="NavBar" >
+      <NavLink to="/" activeClassName="active">
         <strong style={{ fontSize: "24px" }}>Portfolio</strong>
-      </Link>
-      <Link to="/blogs">
+      </NavLink>
+      <NavLink to="/blogs" activeClassName="active">
         <strong style={{ fontSize: "24px" }}>Blog</strong>
-      </Link>
+      </NavLink>
     </div>
   );
 }

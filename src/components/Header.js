@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Header.css";
-import kollydap from "../assets/kollydap.jpeg";
+import kola from "../assets/kola.jpeg";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import TwitterIcon from "@material-ui/icons/Twitter";
@@ -24,7 +24,7 @@ function Header() {
                   "https://web.facebook.com/profile.php?id=100074142968612")
               }
             />
-            <GitHubIcon
+            <GitHubIcon 
               onClick={(event) =>
                 (window.location.href = "https://github.com/kollydap")
               }
@@ -35,11 +35,11 @@ function Header() {
               }
             />
           </div>
-          <img src={kollydap} alt=" kollydap" />
+          <img src={kola} alt=" kollydap" />
         </div>
         <div className="heading-primary">
           <strong>Oladapo Kolawole Osagie</strong>
-          <h3>Software Developer</h3>
+          <h3 className="active">Software Developer</h3>
           <p className="aboutt">
             Hello! I am Osagie. A Software developer with experience in
             developing robust and result driven applications with expertise
