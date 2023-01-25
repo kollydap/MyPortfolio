@@ -1,7 +1,8 @@
 import React,{useEffect} from "react";
 import "../styles/Header.css";
-import kola from "../assets/kola.jpeg";
+import kola from "../assets/kola-min.jpeg";
 import Aos from "aos"
+import Typed from 'react-typed'
 import "aos/dist/aos.css"
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import FacebookIcon from "@material-ui/icons/Facebook";
@@ -32,12 +33,12 @@ function Header() {
             />
             <GitHubIcon 
               onClick={(event) =>
-                (window.location.href = "https://github.com/kolawoleOsagie")
+                (window.location.href = "https://github.com/kollydap")
               }
             />
             <TwitterIcon
               onClick={(event) =>
-                (window.location.href = "https://twitter.com/kollydapp")
+                (window.location.href = "https://twitter.com/kolawoleosagie")
               }
             />
           </div>
@@ -45,7 +46,22 @@ function Header() {
         </div>
         <div className="heading-primary">
           <strong>Oladapo Kolawole Osagie</strong>
-          <h3 className="active" data-aos="fade-up">Software Developer</h3>
+         
+         <h3 style={{fontSize:"18px"}}> <Typed 
+          strings={[
+            "Lover of Jesus Christ",
+            "Full stack developer",
+            "Desktop Developer",
+            "Software Developer",
+            "Marine geoscientist"
+          ]}
+          typeSpeed={150}
+          backSpeed={100}
+          loop
+          
+          className="typed__info"/>
+          </h3>
+          {/* <h3 className="active" data-aos="fade-up">j</h3> */}
           <p className="aboutt">
             Hello! I am Osagie. A Software developer with experience in
             developing robust and result driven applications with expertise

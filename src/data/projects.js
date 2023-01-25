@@ -34,7 +34,7 @@ export const PROJECTS =[
     {
         id:2,
         title:"Online interview webapp",
-        description: "Intervid is your software platform for Intervieing management. Interview process made easier allowing you to automatically validate, collect and distribute questions, so you can keep records of every interview process.  ",
+        description: "Intervid is your software platform for Interviewing management. Interview process made easier allowing you to automatically validate, collect and distribute questions, so you can keep records of every interview process.  ",
         link:"https://intervid.netlify.app/",
         github:"https://github.com/kollydap/intervid",
         image:intervid
